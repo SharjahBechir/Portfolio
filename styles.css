@@ -29,7 +29,7 @@ body, html {
 .outer-container{
 	margin: auto;
 	width: 80%;
-	height: 100%;
+	height: 70%;
 	padding: 70px;
 }
 .inner-container{
@@ -50,7 +50,7 @@ body, html {
 	position: relative;
 	margin: auto;
 	width: 80%;
-	height: 210%;
+	height: 280%;
 	padding: 50px;
 	background-color: #9c9c9c;
 	color: white;;
@@ -62,16 +62,24 @@ body, html {
 	background-color: #5c5c5c;
 	text-align: center;
 	position: absolute;
-	top: 40%;
+	top: 28%;
 	left: 50%;
 	font-size: 35px;
 	transform: translate(-50%, -50%);
 	color: white;
 }
-.column {
+.column1 {
   position: relative;
-  bottom: 60%;
+  bottom: 45%;
   height: 20%;
+  width: 20%;
+  float: left;
+  padding: 35px;
+}
+.column2 {
+  position: relative;
+  bottom: 54%;
+  height: 30%;
   width: 20%;
   float: left;
   padding: 35px;
@@ -83,11 +91,37 @@ body, html {
 	background-color: #5c5c5c;
 	text-align: center;
 	position: absolute;
-	top: 260%;
+	top: 280%;
 	left: 50%;
 	font-size: 35px;
 	transform: translate(-50%, -50%);
 	color: white;
+}
+.contact-top{
+	position: relative;
+	margin: auto;
+	width: 84.5%;
+	background-color: #5c5c5c;
+	text-align: center;
+	position: absolute;
+	top: 330%;
+	left: 50%;
+	font-size: 35px;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.contact-text{
+	position: relative;
+	margin: auto;
+	width: 50%;
+	height: 27%;
+	left: 13%;
+	bottom: 120%;
+	padding: 20px;
+	color: white;
+	font-size: 28px;
+	font-family:monospace;
+	color: white;	
 }
 .link{
 	position: absolute;
@@ -99,7 +133,7 @@ body, html {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	top: 280%;
+	top: 300%;
 	left: 45%;
 	font-size: 35px;
 }
@@ -107,20 +141,20 @@ body, html {
 color: grey;
 position: absolute;
 left:150px;
-top:3075px;
+top:3650px;
 font: 20px Georgia, serif;
 }
 .homefooter2{
 color: grey;
 position: absolute;
 left:770px;
-top:3095px;
+top:3650px;
 font: 20px Georgia, serif;
 }
 .homebox1{
 position: absolute;
 left:0px;
-top: 321.5%;
+top: 382.5%;
 width:100%;
 height:130px;
 background-color:#000000;
@@ -128,15 +162,15 @@ background-color:#000000;
 .hometwitter{
 position: absolute;
 left:300px;
-top:3080px;	
+top:3650px;	
 }
 .homefacebook{
 position: absolute;
 left:340px;
-top:3083px;		
+top:3650px;		
 }
 .homeinstagram{
 position: absolute;
 left:420px;
-top:3080px;	
+top:3646px;	
 }
